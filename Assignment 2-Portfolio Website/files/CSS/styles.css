@@ -1,0 +1,25 @@
+.header{
+	height: 25%;
+background: -moz-linear-gradient(top,  #74ba4c 0%, #72aa00 25%, #8eb92a 51%, #8eb92a 51%, #72aa00 52%, #72aa00 52%, #8eb92a 71%, #72aa00 72%, #72aa00 72%, #5baa27 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #74ba4c 0%,#72aa00 25%,#8eb92a 51%,#8eb92a 51%,#72aa00 52%,#72aa00 52%,#8eb92a 71%,#72aa00 72%,#72aa00 72%,#5baa27 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #74ba4c 0%,#72aa00 25%,#8eb92a 51%,#8eb92a 51%,#72aa00 52%,#72aa00 52%,#8eb92a 71%,#72aa00 72%,#72aa00 72%,#5baa27 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#74ba4c', endColorstr='#5baa27',GradientType=0 ); /* IE6-9 */
+
+}
+
+.nav_background {
+	background: black;
+	height: 3%;
+}
+
+.navigation li {
+	display: inline;
+}
+
+.navigation a {
+	color:white;
+}
+
+.navigation a:hover {
+	color: red;
+}
