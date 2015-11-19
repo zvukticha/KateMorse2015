@@ -1,0 +1,118 @@
+/* General Styles */
+
+* {
+  margin: 0;
+}
+
+body, html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background: #ffffff;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  text-align: left;
+  color: #222222;
+}
+
+a, a:visited {
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer !important;
+}
+
+a:hover {
+  color: #ffffff;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+
+/* Header */
+
+header {
+  width: 100%;
+  height: 100px;
+  background: #ffffff;
+  text-align: center;
+  border-bottom: 1px solid rgba(0,0,0,.25);
+}
+
+#logo {
+  padding-top: 25px;
+}
+
+h1 {
+  width: 50px;
+  background: #14BDD1;
+  color: #ffffff;
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 50px;
+  border-radius: 50px;
+  margin-right: 15px;
+  display: inline-block;
+}
+
+h2 {
+  font-size: 24px;
+  line-height: 50px;
+  color: #222222;
+  display: inline-block;
+}
+
+/* Content */
+
+#content {
+  width: 940px;
+  background: #ffffff;
+  margin: 50px auto;
+}
+
+#content p {
+  font-size: 14px;
+  line-height: 18px;
+  margin-bottom: 20px;
+}
+
+#left-column, #right-column {
+  width: 48%;
+  margin-right: 4%;
+  float: left;
+}
+
+  #right-column {
+    margin-right: 0%;
+  }
+
+.left-header {
+  font-family: 'Playfair Display', serif;
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+#left-column p {
+  font-family: 'PT Serif', serif;
+  text-align: justify;
+}
+
+.right-header {
+  font-family: "museo-slab-1","museo-slab-2",serif;
+  font-size: 40px;
+  font-weight: 100;
+  margin-bottom: 20px;
+}
+
+#right-column {
+  font-family: "museo-sans-1","museo-sans-2",sans-serif;
+}
