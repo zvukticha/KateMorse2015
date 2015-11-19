@@ -1,0 +1,246 @@
+/*
+Color Key:
+------------
+	dark grey: #333333;
+	light grey: #F8F8F8;
+	blue: 07AAB0;
+*/
+
+
+/* General Styles */
+* {
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+body, 
+html {
+	height: 100%
+}
+body {
+	background: #333333;
+	font-family:"Helvetica", Arial, sans-serif;
+	font-weight: normal;
+	text-align: left;
+	color: #333333;
+	}
+
+a {
+	text-decoration: none;
+	color: #07AAB0;
+}
+
+a:hover {
+	color: #333333;
+	border-bottom: 1px dotted #333333;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.wrapper {
+	width: 800px;
+	height: 100%;
+	background: #FFFFFF url('../img/ricepaper2.png')repeat;
+	margin: 0 auto;
+	padding: 25px 50px 0 50px;
+}
+
+/* Header Styles */
+
+header {
+	margin-bottom:215px;
+	padding-top: 20px;
+	border-top: 5px solid #333333;
+}
+
+.logo {
+	width: 50px;
+	height: 50px;
+	background: #07AAB0;
+	color: #FFFFFF;
+	font-size: 30px;
+	font-style: italic;
+	text-align: center;
+	line-height: 50px;
+	font-family: Georgia, serif;
+	border-radius: 100%;
+	float:left;
+	margin-right: 15px;
+}
+
+.logo:hover {
+	background: #FFFFFF;
+	color: #07AAB0;
+}
+
+.contact-info,
+.website {
+	font-size: 12px;
+	line-height: 18px;
+	float:left;
+}
+
+.email {
+	margin-top: 10px;
+}
+
+.extension {
+	text-transform: uppercase;
+	font-size: 10px;
+	line-height: 10px;
+	font-style: italic;
+}
+
+.website {
+	background: #07AAB0;
+	color: #FFFFFF;
+	font-size: 10px;
+	line-height: 30px;
+	padding: 0 15px 0 15px;
+	font-weight: bold;
+	text-transform: uppercase; 
+	letter-spacing: 1px;
+	border-radius: 30px;
+	float: right;
+	border-right: 3px solid #069196;
+	border-bottom: 3px solid #069196;
+}
+
+.website:hover {
+	background: #0CC3C9;
+	border-right: 3px solid #027B7F;
+	border-bottom: 3px solid #027B7F;
+}
+
+.website:active {
+	border:none;
+	margin: 1px 0 0 1px;
+}
+
+/*content styles*/
+
+.content {
+	clear:both;
+}
+
+.content:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.left-column,
+.right-column {
+	width: 45%;
+	float:left;
+
+}
+
+.left-column {
+	margin-right: 10%
+}
+
+.experience,
+.education {
+	margin-bottom: 100px;
+}
+
+
+h2 {
+	font-size: 14px;
+	line-height: 14px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	border-top: 2px solid #333333;
+	border-bottom: 1px dotted #333333;
+	padding: 10px 0 10px 0;
+	margin-bottom: 20px;
+}
+
+.exployer,
+.school {
+	font-size: 22px;
+	line-height: 22px;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+
+.city {
+	font-family: Georgia, serif;
+	font-style: italic;
+	font-size: 20px;
+	font-weight: normal;
+}
+
+.role {
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+.description p,
+.affiliations div {
+	font-size: 14px;
+	line-height: 18px;
+ }
+
+.affiliations div {
+	margin-bottom: 15px;
+}
+
+ h3 {
+ 	font-size: 14px;
+ 	line-height: 14px;
+ 	text-transform: uppercase;
+ 	margin: 25px 0 5px 0;
+ }
+
+ ul.skillset-left,
+ ul.skillset-right {
+ 	list-style-type: none;
+ 	padding: 0;
+ 	float: left;
+ 	width: 40%
+ }
+ ul.skillset-left {
+ 	margin-right: 4%
+ }
+
+ ul.skillset-left li,
+ ul.skillset-right li {
+ 	font-size: 14px;
+ 	line-height: 14px;
+ 	margin-bottom: 5px;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
