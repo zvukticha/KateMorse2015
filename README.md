@@ -4,7 +4,7 @@
 Design for the Web -  Fall 2015
 
 Projects
-* [Phillies vs. Red Sox](http://zvukticha.github.io/Phillies "Phillies vs. Red Sox")
+* [Phillies vs. Red Sox](http://github.com/zvukticha/KateMorse2015.io/Phillies "Phillies vs. Red Sox")
 * [Resume](http://zvukticha.github.io/resume "Resume")
 * [Assignment #1](http://zvukticha.github.io/assignment1 "Assignment #1")
 * [Header](http://zvukticha.github.io/header "Header")
