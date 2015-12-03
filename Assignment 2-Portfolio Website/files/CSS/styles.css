@@ -1,16 +1,21 @@
 .header_style {
-
-	
-background: #74ba4c; 
-background: -moz-linear-gradient(top,  #74ba4c 0%, #72aa00 25%, #8eb92a 51%, #8eb92a 51%, #72aa00 52%, #72aa00 52%, #8eb92a 71%, #72aa00 72%, #72aa00 72%, #5baa27 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top,  #74ba4c 0%,#72aa00 25%,#8eb92a 51%,#8eb92a 51%,#72aa00 52%,#72aa00 52%,#8eb92a 71%,#72aa00 72%,#72aa00 72%,#5baa27 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom,  #74ba4c 0%,#72aa00 25%,#8eb92a 51%,#8eb92a 51%,#72aa00 52%,#72aa00 52%,#8eb92a 71%,#72aa00 72%,#72aa00 72%,#5baa27 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#74ba4c', endColorstr='#5baa27',GradientType=0 ); /* IE6-9 */
-
+background: black;
 }
+
 .nav_background {
 	background: black;
 	height: 3%;
+}
+
+p {
+	font-family: cursive;
+	color: #00FFFF;
+	font-size: 36px;
+	text-decoration: line-through;
+	text-align: center;
+}
+
+.logo {
 }
 
 .navigation ul {
@@ -19,14 +24,27 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#74ba4c', end
 
 .navigation li {
 	display: inline;
+
 }
 
 .navigation a {
 	color:white;
 	padding: 0 50px 0 50px;
 	margin: auto;
+	text-decoration: none;
 }
 
 .navigation a:hover {
-	color: red;
+	color: #00FFFF;
+}
+
+
+
+body {
+	background: url(http://www.theterryburginbluesband.com/images/blue-3.jpg);
+}
+
+h1 {
+	font-family: Brush Script MT;
+	color: #00FFFF;
 }
