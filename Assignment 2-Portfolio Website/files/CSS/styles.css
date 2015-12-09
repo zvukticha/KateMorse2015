@@ -2,6 +2,7 @@
 
 .header_style {
 background: black;
+border-bottom: white;
 }
 
 .nav_background {
@@ -18,6 +19,7 @@ p {
 }
 
 .logo {
+	
 }
 
 .navigation ul {
