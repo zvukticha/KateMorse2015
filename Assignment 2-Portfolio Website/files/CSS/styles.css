@@ -12,9 +12,8 @@ border-bottom: white;
 
 p {
 	font-family: cursive;
-	color: #00FFFF;
-	font-size: 36px;
-	text-decoration: line-through;
+	color: black;
+	font-size: 24px;;
 	text-align: center;
 }
 
@@ -95,8 +94,8 @@ table img {
 .standalone {
 	display: block;
     margin-left: auto;
-    margin-right: auto
-
+    margin-right: auto;
+}
 
 
 
